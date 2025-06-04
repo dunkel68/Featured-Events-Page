@@ -53,12 +53,12 @@ EventFinder is a responsive web application that helps users discover local even
 ## Project Structure
 
 ```
-eventfinder/
-├── index.html          # Main HTML file
-├── styles.css          # All CSS styles
-├── script.js           # Main JavaScript functionality
-├── README.md           # This documentation file
-└── screenshot.png      # Application screenshot (optional)
+Featured-Events-Page/
+├── images/
+│   └── logo.png
+├── index.html
+├── styles.css
+└── script.js
 ```
 
 ## Usage Instructions

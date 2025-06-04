@@ -49,6 +49,16 @@ const events = [
         description: "Start your day with a relaxing outdoor yoga session for all levels.",
         image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1520&q=80",
         category: "sports"
+    },
+    {
+        id: 6,
+        name: "24-Hour Code Fest | Hackathon",
+        date: "2024-04-12",
+        time: "20:00",
+        location: "DigiClub",
+        description: "Round-the-clock coding challenge where developers compete to build innovative solutions. Food, drinks, and prizes provided!",
+        image: "https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        category: "tech"
     }
 ];
 
@@ -112,7 +122,7 @@ function renderEvents(eventsToRender) {
     
     eventsToRender.forEach(event => {
         const eventCard = document.createElement('div');
-        eventCard.className = 'event-card';
+        eventCard.className = 'event-card'; 
         
         eventCard.innerHTML = `
             <div class="event-image" style="background-image: url('${event.image}')"></div>

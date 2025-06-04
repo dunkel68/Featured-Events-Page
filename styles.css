@@ -32,6 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px; /* Adjust this value to control left/right spacing */
 }
 
 .logo {
@@ -264,3 +265,33 @@ body {
 .category-food { background-color: #e67e22; }
 .category-tech { background-color: #3498db; }
 .category-sports { background-color: #2ecc71; }
+
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 50px; /* Adjust based on your logo size */
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover .logo-img {
+    transform: scale(1.1);
+}
+
+/* Adjust navbar padding if needed */
+.navbar {
+    padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .logo-img {
+        height: 25px; /* Smaller logo on mobile */
+    }
+}
