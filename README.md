@@ -2,7 +2,7 @@
 Built a page displaying "Featured Events" with HTML, CSS and JavaScript
 # EventFinder - Local Events Discovery Platform
 
-![EventFinder Screenshot](./EventFinder Page.png)
+![EventFinder Page Overview](<EventFinderPage.png>)
 
 ## Overview
 EventFinder is a responsive web application that helps users discover local events in their area. This project was developed as part of a web development internship, showcasing modern frontend techniques including dynamic content loading, filtering, and responsive design.
