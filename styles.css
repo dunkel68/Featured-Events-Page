@@ -1,4 +1,3 @@
-/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -32,7 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px; /* Adjust this value to control left/right spacing */
+    padding: 0 20px;
 }
 
 .logo {
@@ -187,8 +186,6 @@ body {
     }
 }
 
-/* Add these styles to your existing CSS */
-
 /* Filters */
 .filters-container {
     display: flex;
@@ -276,18 +273,13 @@ body {
 }
 
 .logo-img {
-    height: 50px; /* Adjust based on your logo size */
+    height: 50px;
     width: auto;
     transition: transform 0.3s ease;
 }
 
 .logo:hover .logo-img {
     transform: scale(1.1);
-}
-
-/* Adjust navbar padding if needed */
-.navbar {
-    padding: 15px 0;
 }
 
 @media (max-width: 768px) {

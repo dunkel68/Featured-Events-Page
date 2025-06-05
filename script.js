@@ -1,4 +1,3 @@
-// Enhanced event data with real image URLs, categories, and proper dates
 const events = [
     {
         id: 1,
@@ -110,7 +109,7 @@ async function getFilteredEvents() {
         .sort((a, b) => new Date(a.date) - new Date(b.date)); // Sort by date ascending
 }
 
-// Enhanced event card rendering
+// event card rendering
 function renderEvents(eventsToRender) {
     const eventsContainer = document.getElementById('eventsContainer');
     eventsContainer.innerHTML = '';
@@ -146,7 +145,7 @@ function renderEvents(eventsToRender) {
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', async () => {
-    // Set default date range to current month
+    // Set default date range
     const today = new Date();
     const firstDay = new Date(today.getFullYear() - 5, today.getMonth(), 1);
     const lastDay = new Date(today.getFullYear(), today.getMonth() + 1, 0);

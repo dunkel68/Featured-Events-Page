@@ -2,7 +2,7 @@
 Built a page displaying "Featured Events" with HTML, CSS and JavaScript
 # EventFinder - Local Events Discovery Platform
 
-![EventFinder Screenshot](./screenshot.png)
+![EventFinder Screenshot](./EventFinder Page.png)
 
 ## Overview
 EventFinder is a responsive web application that helps users discover local events in their area. This project was developed as part of a web development internship, showcasing modern frontend techniques including dynamic content loading, filtering, and responsive design.
@@ -47,8 +47,8 @@ EventFinder is a responsive web application that helps users discover local even
 
 3. **Run the application**:
    - Install the "Live Server" extension in VS Code
-   - Right-click on `index.html` and select "Open with Live Server"
-   - The app will open in your default browser at `http://127.0.0.1:5500/`
+   - Double-click on `index.html`
+   - The app will open in your default browser
 
 ## Project Structure
 
@@ -56,6 +56,7 @@ EventFinder is a responsive web application that helps users discover local even
 Featured-Events-Page/
 ├── images/
 │   └── logo.png
+│   └── EventFinder Page.png
 ├── index.html
 ├── styles.css
 └── script.js
@@ -79,10 +80,7 @@ Featured-Events-Page/
 
 The application has been tested on:
 - Google Chrome (latest)
-- Mozilla Firefox (latest)
 - Microsoft Edge (latest)
-- Mobile Safari (iOS)
-- Chrome for Android
 
 ## Future Enhancements
 
@@ -99,5 +97,3 @@ The application has been tested on:
 - MDN Web Docs for JavaScript references
 
 ---
-
-**Happy event discovering!** 🎉
